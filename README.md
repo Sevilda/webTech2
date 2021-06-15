@@ -7,7 +7,6 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ## Install
 
 - npm install
-- npm run install-backend
 
 ## Run 
 
