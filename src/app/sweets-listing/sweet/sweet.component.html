@@ -1,0 +1,33 @@
+<div class="m-2 d-flex justify-content-center">
+            <td>{{sweet.name}}</td>
+            <td>
+                <a *ngIf="sweet.type=='Cookie'" class="">
+                    <fa-icon [icon]="faCookieBite" size="lg"></fa-icon>
+                </a>
+                <a *ngIf="sweet.type=='Candy'" class="">
+                    <fa-icon [icon]="faCandyCane" size="lg"></fa-icon>
+                </a>
+                <a *ngIf="sweet.type=='Syrup'" class="">
+                    <fa-icon [icon]="faGlassWhiskey" size="lg"></fa-icon>
+                </a>
+                <a *ngIf="sweet.type=='Hot drink'" class="">
+                    <fa-icon [icon]="faMugHot" size="lg"></fa-icon>
+                </a>
+                <a *ngIf="sweet.type=='Chocolate'" class="">
+                    <fa-icon [icon]="faSquare" size="lg"></fa-icon>
+                </a>
+
+            </td>
+                <td>{{sweet.price}} HUF</td>
+                <td>{{sweet.amount}} pc.</td>
+                <td>
+                    <a *ngIf="!ordering" class="btn" (click)="enableOrder()">
+                        <fa-icon [icon]="faPlus" size="lg"></fa-icon>
+                    </a>
+                    <a *ngIf="ordering" class="btn" (click)="disableOrder()">
+                        <fa-icon [icon]="faMinus" size="lg"></fa-icon>
+                    </a>
+                    <app-order *ngIf="ordering" [sweet]="sweet"></app-order>
+                </td>
+
+</div>

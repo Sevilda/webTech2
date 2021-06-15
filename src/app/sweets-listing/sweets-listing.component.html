@@ -1,0 +1,17 @@
+<h1 class=" d-flex justify-content-center">Sweets</h1>
+
+<div class="m-2 d-flex justify-content-center">
+    <table>
+        <tr class="d-flex justify-content-center" style="border-bottom: 2px solid black;">
+            <th> Name </th>
+            <th> Type </th>
+            <th> Price </th>
+            <th> Available amount </th>
+            <th> Modify </th>
+        </tr>
+
+
+        <tr class="justify-content-center" *ngFor="let sweet of sweets">
+            <app-sweet [sweet]="sweet"></app-sweet>
+        </tr>
+    </table>

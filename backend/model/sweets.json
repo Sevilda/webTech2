@@ -1,0 +1,49 @@
+[{
+
+  "name": "Toffee Chocolate",
+  "amount": 75,
+  "type": "Chocolate",
+  "price": 300
+},{
+
+  "name": "Hazelnut Chocolate",
+  "amount": 110,
+  "type": "Chocolate",
+  "price": 350
+},{
+
+  "name": "Dark Chocolate",
+  "amount": 30,
+  "type": "Chocolate",
+  "price": 400
+},{
+
+  "type": "Candy",
+  "name": "Strawberry Hard Candy",
+  "amount": 80,
+  "price": 75
+},{
+
+  "name": "Green Tea",
+  "amount": 20,
+  "price": 500,
+  "type": "Hot drink"
+},{
+
+  "name": "Strawberry Syrup",
+  "amount": 10,
+  "price": 100,
+  "type": "Syrup"
+},{
+
+  "name": "Vanilla Cookie",
+  "amount": 200,
+  "price": 250,
+  "type": "Cookie"
+},{
+
+  "name": "Blueberry Cookie",
+  "amount": 10,
+  "price": 300,
+  "type": "Cookie"
+}]
